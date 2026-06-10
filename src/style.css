@@ -71,12 +71,12 @@ p {
   border: none;
   line-height: 1.5;
   color: #5a7f9e;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 footer {
   text-align: center;
   margin-top: 20px;
-  font-size: 16px;
+  font-size: 14px;
   color: rgb(90, 127, 158);
 }
