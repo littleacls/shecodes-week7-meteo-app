@@ -3,27 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Forecast App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Search city..." required />
-        <button type="submit">🔍</button>
-      </form>
-    </header>
-    <main>
-      <h1>Barcelona</h1>
-      <p>Wednesday, June 10</p>
-      <p>
-        ☀️
-        <br />
-        24°C
-      </p>
-      <p>Clear Skies</p>
-      <div>55% Humidity</div>
-      <div>14km/h Wind</div>
-    </main>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Search city..." required />
+          <button type="submit">🔍</button>
+        </form>
+      </header>
+      <main>
+        <h1>Barcelona</h1>
+        <p>Wednesday, June 10</p>
+        <p>
+          ☀️
+          <br />
+          24°C
+        </p>
+        <p>Clear Skies</p>
+        <div>55% Humidity</div>
+        <div>14km/h Wind</div>
+      </main>
+    </div>
     <footer>
       This project was coded by
       <a href="https://github.com/littleacls" target="_blank">Ana Lucianetti</a>
