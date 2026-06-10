@@ -8,12 +8,39 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+h1 {
+  color: #5a7f9e;
+  text-align: center;
+}
+
+.search-form {
+  max-width: 450px;
+  margin: 20px auto;
+  font-family: "Quicksand", sans-serif;
+}
+
+.search-form-input {
+  width: 80%;
+  border: 1px solid #c5dff0;
+  border-radius: 16px;
+  padding: 10px;
+  background: rgb(255, 255, 255, 0.8);
+  font-color: #82919f;
+}
+
+.search-form-button {
+  background: #2e86c1;
+  border: 1px solid #c5dff0;
+  border-radius: 16px;
+  padding: 10px 20px;
+}
+
 .weather-app {
   max-width: 400px;
-  margin: 25px auto;
+  margin: 10px auto;
   padding: 40px;
-  background-color: rgb(255, 255, 255);
-  border-radius: 16px;
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 15px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
