@@ -10,46 +10,48 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
     <title>Forecast App</title>
   </head>
   <body>
     <header>
-      <form class="search-form">
+      <form class="search-form" id="search-form">
         <input
           type="search"
           placeholder="Enter a city..."
           required
           class="search-form-input"
+          id="search-input"
         />
         <button type="submit" class="search-form-button">Search</button>
       </form>
     </header>
     <div class="weather-app">
       <main>
-        <p>BARCELONA</p>
-        <p>Wednesday, June 10</p>
+        <p><span id="city"></span>, <span id="country"></span></p>
+        <p><span id="date"></span></p>
         <h1>
-          ☀️
+          <span id="icon"></span>
           <br />
-          24°C
+          <span id="temperature">24</span>°C
         </h1>
         <p>
-          Clear Skies
+          <span id="description">Clear Skies</span>
           <br />
-          Feels like 22°C
+          Feels like <span id="feels-like">22</span>°C
         </p>
         <div class="container">
           <div>
             💧
             <br />
-            55%
+            <span id="humidity"></span>
             <br />
             Humidity
           </div>
           <div>
             💨
             <br />
-            14km/h
+            <span id="wind"></span>
             <br />
             Wind
           </div>
@@ -70,5 +72,6 @@
         >on Netlify</a
       >
     </footer>
+    <script src="src/script.js"></script>
   </body>
 </html>
